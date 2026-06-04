@@ -16,5 +16,10 @@ pipeline{
                 echo 'Deploying...'
             }
         }
+        stage('Nikhil'){
+            steps{
+                echo 'Nikhil  MDC'
+            }
+        }
     }
 }
